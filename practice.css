@@ -1,0 +1,74 @@
+/* ===== GLOBAL ===== */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== NAVBAR FIX ===== */
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+/* ===== HEADINGS ===== */
+h3, h4 {
+    font-weight: 600;
+    color: #333;
+}
+
+/* ===== CONTAINER SPACING ===== */
+.container {
+    max-width: 1000px;
+}
+
+/* ===== ALERTS (NOTICES) ===== */
+.alert {
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/* ===== CARDS (TOOLS) ===== */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* ===== LINKS ===== */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
