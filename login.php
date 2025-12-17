@@ -2,11 +2,11 @@
 session_start();
 
 /* ===== Railway DB Connection ===== */
-$host = "yamanote.proxy.rlwy.net";
-$user = "root";
-$pass = "lVQNjgndIvwUoRwCwmwkQubuVwaKxzip";
-$db   = "railway";
-$port = 43275;
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASS");
+$db   = getenv("DB_NAME");
+$port = getenv("DB_PORT");
 
 $link = mysqli_connect($host, $user, $pass, $db, $port);
 if (!$link) {
